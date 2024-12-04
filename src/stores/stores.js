@@ -1,31 +1,95 @@
 import { writable } from "svelte/store";
 
-
-export const cart = writable([]);
-
-export const productsStore = writable([
-    {
-        id: 1,
-        name: "Product 1",
-        price: 10,
-        image: "https://picsum.photos/id/10/200/300",
-            
-    },
-    {
-        id: 2,
-        name: "Product 2",
-        price: 20,
-        image: "https://picsum.photos/id/10/200/300",
-            
-    },
-    {
-        id: 3,
-        name: "Product 3",
-        price: 30,
-        image: "https://picsum.photos/id/10/200/300",
-            
-    },
-
+export const products = writable([
+  {
+    id: 1,
+    title: "Multi-Purpose Tool Kit",
+    price: "10",
+    image: "./img/toolkit.jpeg",
+    isNew: true,
+  },
+  {
+    id: 2,
+    title: "Nut",
+    price: "5",
+    image: "./img/nut.jpeg",
+    isNew: false,
+  },
+  {
+    id: 3,
+    title: "Earring",
+    price: "50",
+    image: "./img/earring.jpeg",
+    isNew: true,
+  },
+  {
+    id: 4,
+    title: "Multi-Purpose Tool Ki",
+    price: "15",
+    image: "./img/toolkit2.jpeg",
+    isNew: false,
+  },
+  {
+    id: 5,
+    title: "Multi-Purpose Tool Kit",
+    price: "10",
+    image: "./img/toolkit.jpeg",
+    isNew: true,
+  },
+  {
+    id: 6,
+    title: "Nut",
+    price: "5",
+    image: "./img/nut.jpeg",
+    isNew: false,
+  },
+  {
+    id: 7,
+    title: "Earring",
+    price: "50",
+    image: "./img/earring.jpeg",
+    isNew: true,
+  },
+  {
+    id: 8,
+    title: "Multi-Purpose Tool Ki",
+    price: "15",
+    image: "./img/toolkit2.jpeg",
+    isNew: false,
+  },
+  {
+    id: 9,
+    title: "Multi-Purpose Tool Ki",
+    price: "15",
+    image: "./img/toolkit2.jpeg",
+    isNew: false,
+  },
+  {
+    id: 10,
+    title: "Multi-Purpose Tool Kit",
+    price: "10",
+    image: "./img/toolkit.jpeg",
+    isNew: true,
+  },
+  {
+    id: 11,
+    title: "Nut",
+    price: "5",
+    image: "./img/nut.jpeg",
+    isNew: false,
+  },
+  {
+    id: 12,
+    title: "Earring",
+    price: "50",
+    image: "./img/earring.jpeg",
+    isNew: true,
+  },
+  {
+    id: 13,
+    title: "Multi-Purpose Tool Ki",
+    price: "15",
+    image: "./img/toolkit2.jpeg",
+    isNew: false,
+  },
 ]);
-
-

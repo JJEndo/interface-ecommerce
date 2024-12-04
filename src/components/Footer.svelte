@@ -2,7 +2,7 @@
   <div class="footer-container">
     <!-- Logo and Social Media -->
     <div class="footer-section logo-social">
-      <img src="/path/to/logo.png" alt="Mercapp logo" class="logo" />
+      <img src="./img/logoMercapp.png" alt="Mercapp logo" class="logo" />
       <div class="social-icons">
         <a href="https://twitter.com" target="_blank" aria-label="Twitter">
           <img src="./img/x.svg" alt="Twitter" />
@@ -50,6 +50,10 @@
       </div>
     </div>
   </div>
+    <!-- Copyright Section -->
+    <div class="footer-copyright">
+      © {new Date().getFullYear()} Mercapp. All rights reserved.
+    </div>
 </footer>
 
 <style>
@@ -62,7 +66,7 @@
     color: #333;
     margin-top: 2rem;
     justify-content: center;
-    justify-items: start;
+    justify-items: center;
   }
 
   .footer-container {
@@ -75,10 +79,9 @@
 
   .footer-section {
     display: flex;
-    flex: 1;
-    min-width: 100px;
     flex-direction: row;
-    gap: 2rem;
+    gap: 6rem;
+    justify-content: space-between;
   }
 
   .logo-social {
@@ -126,5 +129,10 @@
 
   a:hover {
     text-decoration: underline;
+  }
+  .footer-copyright {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #777;
   }
 </style>
